@@ -1,5 +1,7 @@
 # my-vue-1001
 
+1
+
 ## Project setup
 ```
 npm install
