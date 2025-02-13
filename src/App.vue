@@ -1,7 +1,19 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <ul>
+      <li>
+        <router-link to="/">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/about">About</router-link>
+      </li>
+      <li>
+        <router-link to="/snake">Snake</router-link>
+      </li>
+    </ul>
+<!--    <router-link to="/">Home</router-link> |-->
+<!--    <router-link to="/about">About</router-link>-->
+<!--    <router-link to="/snake">Snake</router-link>-->
   </nav>
   <router-view/>
 </template>
@@ -28,3 +40,5 @@ nav {
   }
 }
 </style>
+<script setup lang="ts">
+</script>
